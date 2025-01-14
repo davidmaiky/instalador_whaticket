@@ -23,6 +23,9 @@ print_banner() {
 
   printf "${GREEN}";
   printf "MAIKYSOFT \n";
+  printf "MAIKYSOFT \n";
+  printf "MAIKYSOFT \n";
+  printf "MAIKYSOFT \n";
   
   printf "${NC}";
 
