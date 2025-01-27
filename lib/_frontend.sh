@@ -60,6 +60,7 @@ frontend_update() {
   git pull
   cd /home/deploy/${empresa_atualizar}/frontend
   npm install
+  rm -rf build
   npm run build
   pm2 start ${empresa_atualizar}-frontend
   pm2 save
